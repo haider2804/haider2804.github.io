@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syed Haider Abbass - Cloud Engineer</title>
+  <link href="./styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="snap-y snap-mandatory overflow-y-scroll">
+  <!-- Fixed Navigation Bar -->
+  <nav class="fixed top-0 left-0 w-full bg-white text-blue-900 p-4 z-50 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Syed Haider Abbass</h1>
+      <div class="space-x-4">
+        <a href="#home" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Home</a>
+        <a href="#about" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">About</a>
+        <a href="#skills" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Skills</a>
+        <a href="#experience" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Experience</a>
+        <a href="#education" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Education</a>
+        <a href="#extracurricular" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Extra Curricular</a>
+        <a href="portfolio.html" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Portfolio</a>
+        <a href="blog.html" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Blog</a>
+        <a href="#contact" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative bg-gradient-to-br from-red-700 to-red-900 text-white min-h-screen flex items-center justify-center snap-start animate-gradient">
+    <div class="container mx-auto px-4 text-center z-10">
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">Hi, I am Haider!</h1>
+      <p class="text-xl md:text-2xl mb-4 animate-slide-up">Cloud and DevOps Engineer || Enterprise Solutions Architect || Apigee Expert</p>
+      <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto animate-slide-up delay-100">
+        GCP | Apigee Edge Installation (On-Premise & Hybrid) | Linux and RHEL | DevOps | Kubernetes | RKE & Terraform Deployment | JSON & XML Handling
+      </p>
+      <a href="#contact" class="inline-block bg-blue-900 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-800 hover:scale-105 transition-transform duration-300">Get in Touch</a>
+    </div>
+    <!-- Scattered Technology Icons with Bounce -->
+    <div class="absolute inset-0 z-0">
+      <i class="fab fa-google cloud-icon text-6xl text-white opacity-40 hover:opacity-80 hover:scale-110 transition-all duration-300 animate-bounce-slow" style="top: 20%; left: 10%;" title="GCP"></i>
+      <i class="fab fa-aws cloud-icon text-6xl text-white opacity-40 hover:opacity-80 hover:scale-110 transition-all duration-300 animate-bounce-slow" style="top: 30%; left: 70%;" title="AWS"></i>
+      <i class="fab fa-microsoft cloud-icon text-6xl text-white opacity-40 hover:opacity-80 hover:scale-110 transition-all duration-300 animate-bounce-slow" style="top: 60%; left: 20%;" title="Azure"></i>
+      <i class="fas fa-tools cloud-icon text-6xl text-white opacity-40 hover:opacity-80 hover:scale-110 transition-all duration-300 animate-bounce-slow" style="top: 40%; left: 85%;" title="DevOps"></i>
+      <i class="fab fa-docker cloud-icon text-6xl text-white opacity-40 hover:opacity-80 hover:scale-110 transition-all duration-300 animate-bounce-slow" style="top: 70%; left: 50%;" title="Docker"></i>
+      <i class="fas fa-cubes cloud-icon text-6xl text-white opacity-40 hover:opacity-80 hover:scale-110 transition-all duration-300 animate-bounce-slow" style="top: 25%; left: 40%;" title="Kubernetes"></i>
+      <i class="fab fa-jenkins cloud-icon text-6xl text-white opacity-40 hover:opacity-80 hover:scale-110 transition-all duration-300 animate-bounce-slow" style="top: 55%; left: 75%;" title="Jenkins"></i>
+      <i class="fas fa-cloud cloud-icon text-6xl text-white opacity-40 hover:opacity-80 hover:scale-110 transition-all duration-300 animate-bounce-slow" style="top: 80%; left: 30%;" title="Apigee"></i>
+    </div>
+    <!-- Floating Arrow -->
+    <a href="#about" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white text-3xl animate-bounce hover:text-red-200 transition-colors duration-300">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="min-h-screen bg-blue-50 flex items-center justify-center snap-start">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="flex justify-center">
+          <img src="./images/haider-profile.png" alt="Syed Haider Abbass" class="w-64 h-64 object-cover rounded-full shadow-md hover:scale-105 transition-transform duration-300">
+        </div>
+        <div class="text-center md:text-left animate-slide-up delay-100">
+          <h2 class="text-3xl font-bold text-blue-900 mb-6">About Me</h2>
+          <p class="text-lg text-gray-700 max-w-xl mx-auto md:mx-0">
+            I am a Google Cloud Engineer passionate about designing and managing scalable, efficient cloud infrastructures that enable organizations to thrive in today’s fast-paced digital landscape. My expertise includes Linux, Docker, Kubernetes, and automating complex cloud environments to maximize reliability and performance.
+            <br><br>
+            As an Apigee specialist, I excel in API gateway installation and management across cloud, on-premises, and hybrid deployments. Whether implementing scalable solutions or optimizing DevOps pipelines, I bring a results-driven mindset to every project.
+          </p>
+        </div>
+      </div>
+      <!-- Floating Arrow -->
+      <a href="#skills" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-blue-900 text-3xl animate-bounce hover:text-red-600 transition-colors duration-300">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="min-h-screen bg-white flex items-center justify-center snap-start">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6 text-center animate-slide-up">Technical Skills</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[200px]">
+        <div class="flip-card min-h-[200px]">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-gradient-to-r from-blue-600 to-blue-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <h3 class="text-xl font-semibold mb-2">Cloud Platforms</h3>
+              <p>GCP, AWS</p>
+            </div>
+            <div class="flip-card-back bg-gradient-to-r from-red-600 to-red-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <ul class="list-disc list-inside">
+                <li>Google Cloud Platform (GCP)</li>
+                <li>Amazon Web Services (AWS)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card min-h-[200px]">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-gradient-to-r from-blue-600 to-blue-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <h3 class="text-xl font-semibold mb-2">Containerization</h3>
+              <p>Docker, Kubernetes, Rancher</p>
+            </div>
+            <div class="flip-card-back bg-gradient-to-r from-red-600 to-red-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <ul class="list-disc list-inside">
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>Rancher (RKE1, RKE2)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card min-h-[200px]">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-gradient-to-r from-blue-600 to-blue-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <h3 class="text-xl font-semibold mb-2">DevOps & Automation</h3>
+              <p>Jenkins, Chef, Terraform, Ansible</p>
+            </div>
+            <div class="flip-card-back bg-gradient-to-r from-red-600 to-red-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <ul class="list-disc list-inside">
+                <li>Jenkins</li>
+                <li>Chef</li>
+                <li>Terraform</li>
+                <li>Ansible</li>
+                <li>MetalLb</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card min-h-[200px]">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-gradient-to-r from-blue-600 to-blue-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <h3 class="text-xl font-semibold mb-2">Programming Languages</h3>
+              <p>Python, JavaScript, Go, Bash</p>
+            </div>
+            <div class="flip-card-back bg-gradient-to-r from-red-600 to-red-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <ul class="list-disc list-inside">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Deno</li>
+                <li>Go</li>
+                <li>Bash</li>
+                <li>YAML</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card min-h-[200px]">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-gradient-to-r from-blue-600 to-blue-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <h3 class="text-xl font-semibold mb-2">API Management</h3>
+              <p>Apigee, JSON, XML</p>
+            </div>
+            <div class="flip-card-back bg-gradient-to-r from-red-600 to-red-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <ul class="list-disc list-inside">
+                <li>Apigee (Edge, X, Hybrid)</li>
+                <li>JSON</li>
+                <li>XML</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card min-h-[200px]">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-gradient-to-r from-blue-600 to-blue-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <h3 class="text-xl font-semibold mb-2">Data Analysis Tools</h3>
+              <p>PowerBI, Tableau</p>
+            </div>
+            <div class="flip-card-back bg-gradient-to-r from-red-600 to-red-900 text-white p-6 rounded-lg shadow-md flex flex-col justify-center">
+              <ul class="list-disc list-inside">
+                <li>PowerBI</li>
+                <li>Tableau</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Floating Arrow -->
+      <a href="#experience" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-blue-900 text-3xl animate-bounce hover:text-red-600 transition-colors duration-300">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="min-h-screen bg-white flex items-center justify-center snap-start">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6 text-center animate-slide-up">Experience</h2>
+      <div class="mb-8 p-6 bg-gradient-to-r from-blue-900 to-blue-700 text-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+        <h3 class="text-xl font-semibold text-red-200">Cloud Engineer</h3>
+        <p class="text-gray-200">Abacus Consulting Technology, Lahore | October 2024 – Present</p>
+        <ul class="list-disc list-inside text-gray-100 mt-2">
+          <li>Designed and maintained secure, scalable GCP cloud infrastructure ensuring high availability and compliance.</li>
+          <li>Managed Apigee Edge, X, and Hybrid for API development, policy enforcement, and OAuth 2.0/mTLS security.</li>
+          <li>Automated CI/CD pipelines using Terraform, Chef, Jenkins, and Git for faster deployments.</li>
+          <li>Deployed RKE1/RKE2 Kubernetes clusters and serverless applications with Google Cloud Functions.</li>
+        </ul>
+      </div>
+      <div class="mb-8 p-6 bg-blue-100 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+        <h3 class="text-xl font-semibold text-red-600">Assistant Manager – HR & Admin</h3>
+        <p class="text-gray-600">MG Motors Pakistan, Lahore | July 2020 – November 2021</p>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>Oversaw HR and administrative functions, streamlining workflows and enhancing operational effectiveness.</li>
+        </ul>
+      </div>
+      <div class="mb-8 p-6 bg-blue-100 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+        <h3 class="text-xl font-semibold text-red-600">Assistant Manager – Talent Management</h3>
+        <p class="text-gray-600">FINCA Microfinance Bank Limited, Lahore | August 2018 – June 2020</p>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>Managed talent acquisition and development strategies to support organizational growth.</li>
+        </ul>
+      </div>
+      <div class="mb-8 p-6 bg-blue-100 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+        <h3 class="text-xl font-semibold text-red-600">Marketing Officer</h3>
+        <p class="text-gray-600">Rausing Executive Development Center, Lahore University of Management Sciences (LUMS), Lahore | March 2017 – July 2018</p>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>Coordinated marketing efforts for executive education programs, enhancing outreach and engagement.</li>
+        </ul>
+      </div>
+      <div class="mb-8 p-6 bg-blue-100 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+        <h3 class="text-xl font-semibold text-red-600">Coordinator – VC Office</h3>
+        <p class="text-gray-600">Lahore University of Management Sciences (LUMS), Lahore | June 2015 – February 2017</p>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>Supported administrative operations for the Vice Chancellor’s office, ensuring efficient communication and coordination.</li>
+        </ul>
+      </div>
+      <!-- Floating Arrow -->
+      <a href="#education" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-blue-900 text-3xl animate-bounce hover:text-red-600 transition-colors duration-300">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="min-h-screen bg-blue-50 flex items-center justify-center snap-start">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6 text-center animate-slide-up">Education & Certifications</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="p-6 bg-blue-100 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+          <h3 class="text-xl font-semibold text-red-600">Education</h3>
+          <p class="text-gray-700">Master of Business Administration</p>
+          <p class="text-gray-600">The Superior University, Lahore | 2012 – 2016</p>
+        </div>
+        <div class="p-6 bg-blue-100 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+          <h3 class="text-xl font-semibold text-red-600">Certifications</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>Google Associate Cloud Engineer (Expected: August 2025)</li>
+            <li>Google IT Support Professional Certificate (Expected: June 2025)</li>
+            <li>Linux – LabEx (April 2025)</li>
+            <li>Excel for Business Specialization – University of Macquarie (April 2023)</li>
+            <li>Introduction to Cloud Computing – IBM (July 2022)</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Floating Arrow -->
+      <a href="#extracurricular" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-blue-900 text-3xl animate-bounce hover:text-red-600 transition-colors duration-300">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Extra Curricular Activities Section -->
+  <section id="extracurricular" class="min-h-screen bg-white flex items-center justify-center snap-start">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6 text-center animate-slide-up">Extra Curricular Activities</h2>
+      <div class="p-6 bg-blue-100 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+        <h3 class="text-xl font-semibold text-red-600">Deloitte Australia Data Analytics Job Simulation on Forage</h3>
+        <p class="text-gray-600">February 2025</p>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>Completed a Deloitte job simulation involving data analysis and forensic technology.</li>
+          <li>Created a data dashboard using Tableau.</li>
+          <li>Used Excel to classify data and draw business conclusions.</li>
+        </ul>
+      </div>
+      <!-- Floating Arrow -->
+      <a href="#contact" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-blue-900 text-3xl animate-bounce hover:text-red-600 transition-colors duration-300">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="min-h-screen bg-blue-600 text-white flex items-center justify-center snap-start">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-center animate-slide-up">Get in Touch</h2>
+      <p class="text-lg mb-6 text-center animate-slide-up delay-100">Interested in collaborating or learning more about my work? Reach out!</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Contact Details -->
+        <div class="flex flex-col space-y-4 animate-slide-up delay-100 bg-white text-blue-900 p-6 rounded-lg shadow-md">
+          <p class="text-lg"><i class="fas fa-envelope mr-2"></i>Email: <a href="mailto:haider.abbass786@gmail.com" class="hover:text-red-600 hover:scale-105 transition-all duration-300">haider.abbass786@gmail.com</a></p>
+          <p class="text-lg"><i class="fas fa-phone mr-2"></i>Phone: <a href="tel:+923346362704" class="hover:text-red-600 hover:scale-105 transition-all duration-300">+92-334-6362704</a></p>
+          <p class="text-lg"><i class="fas fa-map-marker-alt mr-2"></i>Address: Lahore, Pakistan (Open to Relocate)</p>
+          <p class="text-lg"><i class="fab fa-linkedin mr-2"></i>LinkedIn: <a href="https://www.linkedin.com/in/haiderabbass" class="hover:text-red-600 hover:scale-105 transition-all duration-300">linkedin.com/in/haiderabbass</a></p>
+        </div>
+        <!-- Contact Form -->
+        <div class="animate-slide-up delay-100">
+          <form action="https://formspree.io/f/xnqkbjlo" method="POST" class="space-y-4 bg-white text-blue-900 p-6 rounded-lg shadow-md">
+            <div>
+              <label for="name" class="block text-lg font-semibold">Name</label>
+              <input type="text" id="name" name="name" required class="w-full p-2 rounded-lg bg-gray-100 text-blue-900 border border-blue-500 focus:outline-none focus:ring-2 focus:ring-red-600">
+            </div>
+            <div>
+              <label for="email" class="block text-lg font-semibold">Email</label>
+              <input type="email" id="email" name="email" required class="w-full p-2 rounded-lg bg-gray-100 text-blue-900 border border-blue-500 focus:outline-none focus:ring-2 focus:ring-red-600">
+            </div>
+            <div>
+              <label for="phone" class="block text-lg font-semibold">Contact Number (with Area Code)</label>
+              <input type="tel" id="phone" name="phone" required class="w-full p-2 rounded-lg bg-gray-100 text-blue-900 border border-blue-500 focus:outline-none focus:ring-2 focus:ring-red-600" placeholder="+92-123-4567890">
+            </div>
+            <div>
+              <label for="message" class="block text-lg font-semibold">Message</label>
+              <textarea id="message" name="message" required rows="4" class="w-full p-2 rounded-lg bg-gray-100 text-blue-900 border border-blue-500 focus:outline-none focus:ring-2 focus:ring-red-600"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-800 hover:scale-105 transition-transform duration-300">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-4 text-center">
+    <div class="flex justify-center space-x-4 mb-2">
+      <a href="https://www.linkedin.com/in/haiderabbass" class="text-red-200 hover:text-red-100 hover:scale-110 transition-all duration-300"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/haider2804" class="text-red-200 hover:text-red-100 hover:scale-110 transition-all duration-300"><i class="fab fa-github"></i></a>
+    </div>
+    <p>© 2025 Syed Haider Abbass. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="./scripts.js"></script>
+</body>
+</html>
