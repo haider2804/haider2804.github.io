@@ -12,7 +12,12 @@
   <nav class="fixed top-0 left-0 w-full bg-white text-blue-900 p-4 z-50 shadow-md">
     <div class="container mx-auto flex justify-between items-center">
       <h1 class="text-2xl font-bold">Syed Haider Abbass</h1>
-      <div class="space-x-4">
+      <!-- Hamburger Button (Visible on Mobile) -->
+      <button id="menu-toggle" class="md:hidden text-2xl focus:outline-none" aria-label="Toggle navigation menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-4">
         <a href="#home" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Home</a>
         <a href="#about" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">About</a>
         <a href="#skills" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Skills</a>
@@ -24,10 +29,22 @@
         <a href="#contact" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Contact</a>
       </div>
     </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white text-blue-900 flex flex-col items-center space-y-4 py-4 absolute top-16 left-0 w-full shadow-md">
+      <a href="#home" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Home</a>
+      <a href="#about" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">About</a>
+      <a href="#skills" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Skills</a>
+      <a href="#experience" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Experience</a>
+      <a href="#education" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Education</a>
+      <a href="#extracurricular" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Extra Curricular</a>
+      <a href="portfolio.html" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Portfolio</a>
+      <a href="blog.html" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Blog</a>
+      <a href="#contact" class="font-bold hover:text-red-600 hover:underline hover:underline-offset-4 transition-all duration-300">Contact</a>
+    </div>
   </nav>
 
   <!-- Hero Section -->
-  <section id="home" class="min-h-screen flex items-center bg-gradient-to-br from-red-500 to-blue-500 text-white animate-gradient">
+  <section id="home" class="min-h-screen flex items-center bg-gradient-to-br from-red-500 to-red-900 text-white">
     <div class="container mx-auto px-4 text-center z-10 relative">
       <h1 class="text-5xl md:text-6xl font-bold mb-4">Hi, I am Haider!</h1>
       <p class="text-xl md:text-2xl mb-4 animate-slide-up">Cloud and DevOps Engineer || Enterprise Solutions Architect || Apigee Expert</p>
@@ -295,7 +312,7 @@
         </div>
         <!-- Contact Form -->
         <div class="animate-slide-up delay-100">
-          <form action="https://formspree.io/f/xnqkbjlo" method="POST" class="space-y-4 bg-white text-blue-900 p-6 rounded-lg shadow-md">
+          <form action="https://formspree.io/f/mldldqdy" method="POST" class="space-y-4 bg-white text-blue-900 p-6 rounded-lg shadow-md">
             <div>
               <label for="name" class="block text-lg font-semibold">Name</label>
               <input type="text" id="name" name="name" required class="w-full p-2 rounded-lg bg-gray-100 text-blue-900 border border-blue-500 focus:outline-none focus:ring-2 focus:ring-red-600">
