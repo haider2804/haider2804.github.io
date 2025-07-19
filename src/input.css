@@ -13,7 +13,7 @@
     animation: bounceSlow 3s ease-in-out infinite;
   }
   .animate-gradient {
-    animation: gradientCycle 15s ease-in-out infinite;
+    animation: gradientCycle 20s ease-in-out infinite;
   }
   .delay-100 {
     animation-delay: 100ms;
@@ -62,8 +62,10 @@
 }
 
 @keyframes gradientCycle {
-  0% { background-image: linear-gradient(to bottom right, #B91C1C, #991B1B); } /* red-700 to red-900 */
-  33% { background-image: linear-gradient(to bottom right, #1E40AF, #1E3A8A); } /* blue-700 to blue-900 */
-  66% { background-image: linear-gradient(to bottom right, #6B21A8, #5B21B6); } /* purple-700 to purple-800 */
-  100% { background-image: linear-gradient(to bottom right, #B91C1C, #991B1B); } /* back to red */
+  0% { background-image: linear-gradient(to bottom right, #EF4444, #3B82F6); } /* Red to Blue */
+  20% { background-image: linear-gradient(to bottom right, #3B82F6, #10B981); } /* Blue to Green */
+  40% { background-image: linear-gradient(to bottom right, #10B981, #F59E0B); } /* Green to Yellow */
+  60% { background-image: linear-gradient(to bottom right, #F59E0B, #F97316); } /* Yellow to Orange */
+  80% { background-image: linear-gradient(to bottom right, #F97316, #EF4444); } /* Orange to Red */
+  100% { background-image: linear-gradient(to bottom right, #EF4444, #3B82F6); } /* Back to Red */
 }
