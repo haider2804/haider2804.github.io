@@ -13,7 +13,7 @@
     animation: bounceSlow 3s ease-in-out infinite;
   }
   .animate-gradient {
-    animation: gradientCycle 20s ease-in-out infinite;
+    animation: gradientCycle 60s ease-in-out infinite;
   }
   .delay-100 {
     animation-delay: 100ms;
@@ -62,10 +62,10 @@
 }
 
 @keyframes gradientCycle {
-  0% { background-image: linear-gradient(to bottom right, #EF4444, #3B82F6); } /* Red to Blue */
-  20% { background-image: linear-gradient(to bottom right, #3B82F6, #10B981); } /* Blue to Green */
-  40% { background-image: linear-gradient(to bottom right, #10B981, #F59E0B); } /* Green to Yellow */
-  60% { background-image: linear-gradient(to bottom right, #F59E0B, #F97316); } /* Yellow to Orange */
-  80% { background-image: linear-gradient(to bottom right, #F97316, #EF4444); } /* Orange to Red */
-  100% { background-image: linear-gradient(to bottom right, #EF4444, #3B82F6); } /* Back to Red */
+  0% { background-image: linear-gradient(to bottom right, #EF4444, #FCA5A5, #3B82F6); } /* Red to light red to Blue */
+  20% { background-image: linear-gradient(to bottom right, #3B82F6, #93C5FD, #10B981); } /* Blue to light blue to Green */
+  40% { background-image: linear-gradient(to bottom right, #10B981, #6EE7B7, #F59E0B); } /* Green to light green to Yellow */
+  60% { background-image: linear-gradient(to bottom right, #F59E0B, #FCD34D, #F97316); } /* Yellow to light yellow to Orange */
+  80% { background-image: linear-gradient(to bottom right, #F97316, #FDBA74, #EF4444); } /* Orange to light orange to Red */
+  100% { background-image: linear-gradient(to bottom right, #EF4444, #FCA5A5, #3B82F6); } /* Back to Red */
 }
